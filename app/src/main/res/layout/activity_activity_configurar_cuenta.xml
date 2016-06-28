@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.anncode.aplicacioncontactos.Activities.ActivityConfigurarCuenta">
+
+    <TextView
+        android:id="@+id/tvAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="25dp"
+        />
+
+    <TextView
+        android:id="@+id/tvUsr1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="gateria27"
+        android:textSize="17sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="75dp"
+        android:layout_below="@+id/tvAbout"
+        android:onClick="usuario01"
+        />
+
+    <TextView
+        android:id="@+id/tvUsr2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="micrcele"
+        android:textSize="17sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/tvUsr1"
+        android:onClick="usuario02"
+        />
+
+    <TextView
+        android:id="@+id/tvUsr3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="elmasbananaro"
+        android:textSize="17sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/tvUsr2"
+        android:onClick="usuario03"
+        />
+
+    <TextView
+        android:id="@+id/tvUsr4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="goliath"
+        android:textSize="17sp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/tvUsr3"
+        android:onClick="usuario04"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/tvUsr4"
+        android:layout_marginTop="50dp"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar Cuenta"
+            android:onClick="guardarCuenta"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
